@@ -1,10 +1,12 @@
 #  Gene Ontology Annotations
 
 Gene Ontology Annotations is a tool made for [BlueGenes](http://bluegenes.apps.intermine.org) following BlueGenes Tool API.
-Add more description of your tool here! :)
+This tool shows Gene Ontology annotations for the Gene and the Protein classs with the evidences (classical InterMine view). 
+The three name spaces, 'biological_process', molecular_function', and 'cellular_component are displayed in a separated tab panel respectively.
 
-## Licence
+## License
 
+The MIT License - see [LICENSE](LICENSE)
 
 ### To set up locally for development
 

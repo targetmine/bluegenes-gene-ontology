@@ -34,7 +34,7 @@
   <script>
     window.onload = function() {
     	// InterMine service, including URL and optionally token.
-      var imService = { root: 'https://www.humanmine.org/humanmine' };
+      var imService = { root: 'https://targetmine.mizuguchilab.org/targetmine' };
 	    // The element to attach the viewer to. Must be an existing DOM element.
     	var elem = document.getElementById('yourDiv'),
         // We use imjs to acquire the example data for initializing the tool,
@@ -43,7 +43,10 @@
         getDataForTool = function() {
           var service = new imjs.Service(imService);
           // You can change this to a different object type and identifier.
-          return service.lookup('Gene', 'GATA1');
+          //return service.lookup('Gene', '255738');
+          //return service.lookup('Gene', '100009671');
+          //return service.lookup('Gene', '100036765');
+          return service.lookup('Protein', 'APOB_HUMAN');
         },
     		toolState = {}, // To be confirmed how we use this.
         navigate = function(type, data, mine) {

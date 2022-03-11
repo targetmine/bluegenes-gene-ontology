@@ -16,6 +16,7 @@ function main(el, service, imEntity, state, config, navigate) {
 			serviceUrl={service.root}
 			entity={imEntity}
 			config={config}
+			navigate={navigate}
 		/>,
 		el
 	);
